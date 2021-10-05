@@ -1,0 +1,62 @@
+.Form-container{
+    margin: 1rem auto;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Form-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.Form-content > button{
+    all: unset;
+    display: block;
+    background: dodgerblue;
+    color: white;
+    height: 35px;
+    width: 80px;
+    cursor: pointer;
+    transition: background 300ms;
+    margin: .5rem;
+    border-radius: .3rem;
+}
+
+.Form-content > button:hover{
+    background: rgb(26, 119, 212);
+}
+
+.Form-content > textarea{
+    width: clamp(300px, 35%, 1000px);
+    height: 25vh;
+    outline: none !important;
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+.Form-error{
+    width: clamp(350px, 45%, 1000px);
+    border: none;
+    align-self: center;
+    margin-bottom: 1rem;
+    padding: .7rem;
+    border-radius: .2rem;
+    background: rgb(248, 183, 183);
+    color: rgb(201, 41, 41);
+}
+
+.Previews-holder{
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
